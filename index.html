@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ViksitBharat</title>
+    <link rel="stylesheet" href="style-index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    
+ <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <!-- Logo -->
+            <a href="#" class="logo">
+                <img src="logo.png" alt="Viksit Bharat">
+                <span>Viksit Bharat</span>
+            </a>
+
+            <!-- Desktop Menu -->
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="vision2047.html">Vision 2047</a></li>
+                <li><a href="initiatives.html">Initiatives</a></li>
+                <li><a href="progress.html">Progress</a></li>
+                <li><a href="contact.html" >Contact</a></li>
+            </ul>
+
+            <!-- Mobile Hamburger -->
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+        
+        <!-- Overlay -->
+        <div class="nav-overlay"></div>
+    </nav>
+
+<!-- Hero Section -->
+    <section class="hero" data-animate="fade-up">
+        <div class="hero-content">
+            <h1>VIKSIT BHARAT</h1>
+            <p>Join India's transformative journey to become a developed nation by 2047. 
+               Empower yourself, empower communities, and be part of the change through 
+               digital literacy, skill development, and civic participation.</p>
+            <a href="#get-involved" class="cta-button">
+                <i class="fas fa-hands-helping"></i> BECOME A VOLUNTEER
+            </a>
+        </div>
+    </section>
+
+    
+
+
+        <section class="vision-carousel" data-animate="fade-left" class="delay-1">
+        <div class="container">
+            <h2>Vision Snapshot</h2>
+            <div class="carousel-container">
+                <div class="vision-card">
+                    <div class="vision-img" style="background-image: url('digital-india.jpg');"></div>
+                    <div class="vision-content">
+                        <h3>Digital India 2.0</h3>
+                        <p>Connecting every citizen with high-speed internet and digital services by 2030.</p>
+                    </div>
+                </div>
+                <div class="vision-card">
+                    <div class="vision-img" style="background-image: url('smart-cities.jpg');"></div>
+                    <div class="vision-content">
+                        <h3>100 Smart Cities</h3>
+                        <p>Developing sustainable urban centers with IoT-enabled infrastructure.</p>
+                    </div>
+                </div>
+                <div class="vision-card">
+                    <div class="vision-img" style="background-image: url('skill-development.jpg');"></div>
+                    <div class="vision-content">
+                        <h3>Skill India</h3>
+                        <p>Empowering youth with future-ready skills for global competitiveness.</p>
+                    </div>
+                </div>
+                <div class="vision-card">
+                    <div class="vision-img" style="background-image: url('renewable-energy.jpg');"></div>
+                    <div class="vision-content">
+                        <h3>Green Energy</h3>
+                        <p>Achieving 50% renewable energy capacity by 2030.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Focus Areas -->
+    <section class="focus-areas" data-animate="fade-right" class="delay-1">
+        <div class="container">
+            <h2>Key Focus Areas</h2>
+            <div class="focus-grid">
+                <a href="#governance" class="focus-card">
+                    <div class="focus-icon">
+                        <i class="fas fa-landmark"></i>
+                    </div>
+                    <h3>Governance</h3>
+                    <p>Transparent and efficient administration using technology</p>
+                </a>
+                <a href="#economy" class="focus-card">
+                    <div class="focus-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Economy</h3>
+                    <p>$10 trillion GDP target with job creation</p>
+                </a>
+                <a href="#education" class="focus-card">
+                    <div class="focus-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Education</h3>
+                    <p>Future-ready learning systems for all</p>
+                </a>
+                <a href="#healthcare" class="focus-card">
+                    <div class="focus-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3>Healthcare</h3>
+                    <p>Universal access to quality medical services</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Live Progress Dashboard -->
+    <section class="progress-section" data-animate="fade-down" class="delay-1">
+        <div class="container">
+            <h2>Live Progress Dashboard</h2>
+            <div class="dashboard">
+                <div class="metric-card">
+                    <div class="metric-value" id="literacyRate">94%</div>
+                    <div class="metric-title">Literacy Rate</div>
+                    <p>Target: 100% by 2040</p>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value" id="gdpGrowth">6.7%</div>
+                    <div class="metric-title">GDP Growth</div>
+                    <p>Annual target: 8%+</p>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value" id="renewableEnergy">42%</div>
+                    <div class="metric-title">Renewable Energy</div>
+                    <p>Of total capacity</p>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value" id="digitalUsers">800M</div>
+                    <div class="metric-title">Digital Users</div>
+                    <p>Connected Indians</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Initiatives -->
+    <section class="initiatives-slider" data-animate="fade-left" class="delay-1">
+        <div class="container">
+            <h2>Featured Initiatives</h2>
+            <div class="slider-container">
+                <div class="initiative-card">
+                    <div class="initiative-img" style="background-image: url('hyperloop.jpg');"></div>
+                    <div class="initiative-content">
+                        <h3>Hyperloop Network</h3>
+                        <p>Mumbai-Delhi in 2 hours by 2035</p>
+                        <a href="#hyperloop" class="learn-more">Learn More →</a>
+                    </div>
+                </div>
+                <div class="initiative-card">
+                    <div class="initiative-img" style="background-image: url('ai-mission.jpg');"></div>
+                    <div class="initiative-content">
+                        <h3>National AI Mission</h3>
+                        <p>Making India a global AI leader</p>
+                        <a href="#ai-mission" class="learn-more">Learn More →</a>
+                    </div>
+                </div>
+                <div class="initiative-card">
+                    <div class="initiative-img" style="background-image: url('solar-power.jpg');"></div>
+                    <div class="initiative-content">
+                        <h3>Rooftop Solar</h3>
+                        <p>10 million homes by 2030</p>
+                        <a href="#solar" class="learn-more">Learn More →</a>
+                    </div>
+                </div>
+                <div class="initiative-card">
+                    <div class="initiative-img" style="background-image: url('skill-center.jpg');"></div>
+                    <div class="initiative-content">
+                        <h3>Skill Centers</h3>
+                        <p>One in every district</p>
+                        <a href="#skill-centers" class="learn-more">Learn More →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Citizen Participation Portal -->
+    <section class="participation-portal" data-animate="fade-right" class="delay-1">
+        <div class="container">
+            <div class="portal-container">
+                <h2>Citizen Participation Portal</h2>
+                <p>Join India's development journey. Your contribution matters!</p>
+                <div class="portal-options">
+                    <a href="#volunteer" class="portal-btn">
+                        <i class="fas fa-hands-helping"></i> Volunteer
+                    </a>
+                    <a href="#ideas" class="portal-btn">
+                        <i class="fas fa-lightbulb"></i> Share Ideas
+                    </a>
+                    <a href="#donate" class="portal-btn">
+                        <i class="fas fa-rupee-sign"></i> Donate
+                    </a>
+                    <a href="#track" class="portal-btn">
+                        <i class="fas fa-map-marked-alt"></i> Track Projects
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News & Updates -->
+    <section class="news-section" data-animate="fade-up" class="delay-1">
+        <div class="container">
+            <h2>News & Updates</h2>
+            <div class="news-grid">
+                <div class="news-card">
+                    <div class="news-img" style="background-image: url('news1.jpg');"></div>
+                    <div class="news-content">
+                        <div class="news-date">Jan 15, 2025</div>
+                        <h3>India Launches Quantum Computing Mission</h3>
+                        <p>Government allocates ₹10,000 crore for quantum technology research...</p>
+                        <a href="#news1" class="read-more">Read More →</a>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <div class="news-img" style="background-image: url('news2.jpg');"></div>
+                    <div class="news-content">
+                        <div class="news-date">May 08, 2025</div>
+                        <h3>Digital Literacy Reaches Rural India</h3>
+                        <p>5 million villagers trained in basic digital skills this year...</p>
+                        <a href="#news2" class="read-more">Read More →</a>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <div class="news-img" style="background-image: url('news3.jpg');"></div>
+                    <div class="news-content">
+                        <div class="news-date">April 10, 2025</div>
+                        <h3>Startup India Fund Crosses ₹50,000 Cr</h3>
+                        <p>10,000+ startups benefited from government schemes...</p>
+                        <a href="#news3" class="read-more">Read More →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ===== FOOTER SECTION ===== -->
+<footer class="site-footer">
+    <div class="footer-container">
+        <!-- Footer Columns -->
+        <div class="footer-grid">
+            <!-- Column 1: About -->
+            <div class="footer-col">
+                <h3 class="footer-heading">
+                    <img src="logo.png" alt="Viksit Bharat" width="150">
+                </h3>
+                <p>Empowering India's journey to become a developed nation by 2047 through citizen participation and technological innovation.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <!-- Column 2: Quick Links -->
+            <div class="footer-col">
+                <h3 class="footer-heading">Quick Links</h3>
+                <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="vision2047.html">Vision 2047</a></li>
+                        <li><a href="initiatives.html">Initiatives</a></li>
+                        <li><a href="progress.html">Progress</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 3: Government Portals -->
+            <div class="footer-col">
+                <h3 class="footer-heading">Government Links</h3>
+                <ul>
+                    <li><a href="https://www.india.gov.in" target="_blank">National Portal of India</a></li>
+                    <li><a href="https://www.mygov.in" target="_blank">MyGov Initiative</a></li>
+                    <li><a href="https://www.pmindia.gov.in" target="_blank">PMO India</a></li>
+                    <li><a href="https://innovateindia.mygov.in" target="_blank">Innovate India</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 4: Newsletter -->
+            <div class="footer-col">
+                <h3 class="footer-heading">Stay Updated</h3>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your Email Address" required>
+                    <button type="submit">Subscribe <i class="fas fa-paper-plane"></i></button>
+                </form>
+                <div class="contact-info">
+                    <p><i class="fas fa-envelope"></i> contact@Viksitbharat.in</p>
+                    <p><i class="fas fa-phone-alt"></i> Toll-Free: 1000-000-0000</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="footer-bottom-content">
+                <p>&copy; 2023 Viksit Bharat. All Rights Reserved.</p>
+                <div class="footer-links">
+                    <a href="#privacy">Privacy Policy</a>
+                    <a href="#terms">Terms of Service</a>
+                    <a href="#accessibility">Accessibility</a>
+                </div>
+            </div>
+            <div class="tricolor-line"></div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+    <button id="darkModeToggle" class="dark-mode-toggle" aria-label="Toggle dark mode">
+        <i class="fas fa-moon"></i>
+        <i class="fas fa-sun"></i>
+    </button>
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
